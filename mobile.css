@@ -1,0 +1,188 @@
+/*header*/
+
+.header {
+    position: relative;
+    padding: 10px;
+    justify-content: center;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 90px;
+    height: 70px;
+    position: relative;
+    left: 120px;
+    bottom: 5px;
+}
+
+.header .navbar {
+    display: flex;
+}
+
+.header .navbar a i {
+    margin-right: 1px;
+    font-size: 22px;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    color: #005289;
+}
+
+.header .navbar a:hover {
+    color: #B48B1B;
+}
+
+
+/*section1*/
+
+.home {
+    padding: 1rem 7%;
+    padding-top: 7rem;
+}
+
+.home-image .avocat {
+    width: 100%;
+    height: 260px;
+}
+
+.main-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.home-text-content h1 {
+    font-size: 30px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: .2rem;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+.home-text-content p {
+    font-size: 16px;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+}
+
+.home-text-content a {
+    padding: .8rem 1.7rem;
+    font-size: 18px;
+    position: absolute;
+    right: 27%;
+    margin-top: 40px;
+}
+
+.home-text-content a:hover {
+    background-position: right;
+    color: aliceblue;
+}
+
+
+/*section2*/
+
+.containerCarte {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.confidentialiter {
+    width: 100%;
+    border: 3px #5c849e solid;
+}
+
+.confidentialiter i {
+    font-size: 25px;
+}
+
+
+/*<!--section3-->*/
+
+.product-card {
+    width: 280px;
+    height: 380px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.product-img {
+    height: 300px;
+}
+
+.pre-btn i,
+.nxt-btn i {
+    font-size: 35px;
+}
+
+
+/*<!--section4-->*/
+
+.imgCertificat img {
+    width: 245px;
+    height: 200px;
+}
+
+.certificat h2 {
+    font-size: 22px;
+}
+
+.certificat h4 {
+    font-size: 14px;
+}
+
+
+/*****************footer**************/
+
+footer {
+    padding-top: 2rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lienFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h4 {
+    font-size: 16px;
+}
+
+#contact ul li {
+    padding: 3px;
+    font-size: 12px;
+}
+
+#contact .chec {
+    font-size: 18px;
+}
+
+#contact ul li a {
+    font-size: 12px;
+}
+
+#contact .up a {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+}
+
+.lieu {
+    margin-top: 15px;
+}
+
+.lieu p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
